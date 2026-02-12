@@ -12,7 +12,7 @@ export const metadata = {
   description: "Discover and create amazing events",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body suppressHydrationWarning className="bg-linear-to-br from-gray-950 via-zinc-900 to-stone-900 text-white">
